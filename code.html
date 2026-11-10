@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+    header{
+        background-color:aquamarine;
+        color: black;
+        text-align: center;
+        width:100%;
+        padding:20px;
+
+    }
+    .container-1,.container-2,.container-3,.container-4,.container-5{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 30px;
+    row-gap: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content:start;
+}
+
+.div {
+    background-color: white;
+    width: 200px;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    border: 2px solid burlywood;
+    margin: 10px;
+}
+    footer{
+        margin-top: auto;
+        background-color:aquamarine;
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+    }
+    h1{
+        justify-content: center;
+    }
+    .links{
+        text-align: center;
+    }
+        button:hover{
+         background-color:lightsalmon;
+         color: antiquewhite;
+
+        }
+        img{
+        height: 100px;
+        width: 155px;
+        align-items: center;
+            
+        }
+      @media (max-width: 900px) {
+    .container-1, .container-2, .container-3,
+    .container-4, .container-5 {
+        grid-template-columns: repeat(2, 200px);
+    }
+}
+@media (max-width: 500px) {
+    .container-1, .container-2, .container-3,
+    .container-4, .container-5 {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+    </style> 
+
+</head>
+<body>
+    <header>South Indian</header>
+    <div class="links">
+        <a href="#">homepage</a>&emsp;&emsp;
+        <a href="#Starter">Starter</a>&emsp;&emsp;
+        <a href="#Main Course">Main Course</a>&emsp;&emsp;
+        <a href="#Chinese">Chinese</a>&emsp;&emsp;
+        <a href="#Desserts & Sweets">Desserts & Sweets</a>&emsp;&emsp;
+        <a href="#Drinks">Drinks</a>
+    </div>
+    
+    <h1>Starter</h1>
+    <div class="container-1" id="Starter">
+    <div class="div">
+        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/crispy-corn.jpg" alt="Crispy Corn">
+        <h4>Crispy Corn</h4>
+        <p>rs.180</p>
+        <button>Add to cart</button>
+      
+    </div>
+
+     <div class="div">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2JduXrfxCzECo-ITTMx1nRVyjYgNGxSkdX12EMzzJ1DhaWUiPuimrbKM&s=10"
+         alt="Paneer 65" >
+        <h4>Paneer 65</h4>
+        <p>rs.200</p>
+        <button>Add to cart</button>
+       
+    </div>
+
+    <div class="div">
+        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2024/09/GobiManchurian-ad8498d.jpg"
+         alt="Gobi Manchurian">
+        <h4>Gobi Manchurian</h4>
+        <p>rs.180</p>
+        <button>Add to cart</button>
+       
+    </div>
+    <div class="div">
+        <img src="https://static.toiimg.com/thumb/58191990.cms?imgsize=333548&width=800&height=800"
+         alt="Baby Corn Manchurian">
+        <h4>Baby Corn Manchurian</h4>
+        <p>rs.200</p>
+        <button>Add to cart</button>
+       
+    </div>
+    </div>
+    <h1>Main Course</h1>
+     <div class="container-2" id="Main Course">
+    <div class="div">
+        <img src="https://feastwithsafiya.com/wp-content/uploads/2021/10/Veg-Dum-Biryani.jpg" alt="Veg Biryani">
+        <h4>Veg Biryani</h4>
+        <p>rs.250</p>
+        <button>Add to cart</button>
+       
+    </div>
+
+     <div class="div">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRobg7AeGin-rky6ripKLin2Wp73QRxWYquDOQ_WjzbGxST0h9V_tQgzLcJ&s=10"
+         alt="Chicken Dum Biryani" >
+        <h4>Chicken Dum Biryani</h4>
+        <p>rs.320</p>
+        <button>Add to cart</button>
+       
+    </div>
+
+    <div class="div">
+        <img src="https://us2guntur.com/images//10071img/FriedPieceChickenBiryani_B_151220.jpg"
+         alt="Chicken Fry Piece Biryani">
+        <h4>Chicken Fry Piece Biryani</h4>
+        <p>rs.350</p>
+        <button>Add to cart</button>
+       
+    </div>
+        <div class="div">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmJu5tzyGJ7zc0aM2Wu0DjFS4_46N-1FVPQp85ybL5Sw&s=10"alt="Mutton Biryani">
+        <h4>Mutton Biryani</h4>
+        <p>rs.420</p>
+        <button>Add to cart</button>
+       
+    </div>
+    </div>
+     <h1>Chinese</h1>
+    <div class="container-3" id="Chinese">
+    <div class="div">
+        <img src="https://www.whiskaffair.com/wp-content/uploads/2020/02/Chilli-Garlic-Noodles-2-3.jpg"
+        alt="Chilli Garlic Noodles">
+        <h4>Chilli Garlic Noodles</h4>
+        <p>rs.300</p>
+        <button>Add to cart</button>
+       
+    </div>
+
+     <div class="div">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0v1ErcnPWKp6D9RL34GK_Jc3hRR_O6IYwf4aSI5SyatS48702fSfoWiFk&s=10"
+        alt="Mixed Fried Rice">
+        <h4>Mixed Fried Rice</h4>
+        <p>rs.300</p>
+        <button>Add to cart</button>
+        
+    </div>
+
+    <div class="div">
+        <img src="https://www.beyondkimchee.com/wp-content/uploads/2023/03/egg-fried-rice-thumbnail.jpg" alt="Egg Fried Rice" >
+        <h4>Egg Fried Rice</h4>
+        <p>rs.180</p>
+        <button>Add to cart</button>
+       
+    </div>
+        <div class="div">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRUcPyPiOna2Zm-gvVr6ftBSeXaS7Hb8ghJwcWV0qHxU9u7KBHXYHELUYa&s=10" alt="Mushroom Fried Rice">
+        <h4>Mushroom Fried Rice</h4>
+        <p>rs.200</p>
+        <button>Add to cart</button>
+       
+    </div>
+    </div>
+    <h1>Desserts & Sweets</h1>
+    <div class="container-4" id="Desserts & Sweets" >
+    <div class="div">
+        <img src="https://www.kyleecooks.com/wp-content/uploads/2020/08/Brownie-Waffles-23.jpg"
+        alt="Waffles">
+        <h4>Waffles</h4>
+        <p>rs.150</p>
+        <button>Add to cart</button>
+       
+    </div>
+
+     <div class="div">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrPKjqS06yHcvRpD48_dJB7weiovEbEAkgftckMPfLc28dbWwl5PdDsw&s=10"
+        alt="Double Ka Meetha">
+        <h4>Double Ka Meetha</h4>
+        <p>rs.100</p>
+        <button>Add to cart</button>
+        
+    </div>
+
+    <div class="div">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS38N7p_bGKqaDXDHNkmQ5awkpd4cvpFWCBeo3h0iks5KQaKhfx5FXdJLD3&s=10" alt="Chocolate Brownie">
+        <h4>Chocolate Brownie</h4>
+        <p>rs.120</p>
+        <button>Add to cart</button>
+       
+    </div>
+        <div class="div">
+        <img src="https://cookingfromheart.com/wp-content/uploads/2017/07/Eggless-Choco-Lava-Cake-5.jpg" alt="Chocolate Lava Cake" >
+        <h4>Chocolate Lava Cake</h4>
+        <p>rs.200</p>
+        <button>Add to cart</button>
+       
+    </div>
+    </div>
+        <h1>Drinks</h1>
+    <div class="container-5" id="Drinks" >
+    <div class="div">
+        <img src="https://frostingandfettuccine.com/wp-content/uploads/2022/12/Caramel-Iced-Coffee-6.jpg" alt="Cold Coffee">
+        <h4>Cold Coffee</h4>
+        <p>rs.120</p>
+        <button>Add to cart</button>
+       
+    </div>
+
+<div class="div">
+        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2024/06/Coconut-water440-c1acff0.jpg" alt="Coconut Water">
+        <h4>Coconut Water</h4>
+        <p>rs.70</p>
+        <button>Add to cart</button>
+       
+    </div>    
+<div class="div">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYaQIXZd20wylQe3ib_ZuI29zpat6p8XYnwX5VNwyMs3oZYktJc7PzfWs&s=10" alt="Strawberry Mocktail">
+        <h4>Strawberry Mocktail</h4>
+        <p>rs.140</p>
+        <button>Add to cart</button>
+</div>
+       
+<div class="div">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBLH_6Q8n9b0WP62wHm6Zqqb3keEJjKbQm-uXwkFxGXwx-CgOA_aLmSrI&s=10" alt="Oreo Milkshake">
+        <h4>Oreo Milkshake</h4>
+        <p>rs.150</p>
+        <button>Add to cart</button>
+       
+    </div>
+    </div>
+
+    <footer>wisit again</footer>
+</body>
+</html>
